@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.momo.day29_listview_pulltorefresh.MainActivity">
+
+    <in.srain.cube.views.ptr.PtrClassicFrameLayout xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/refresh"
+        android:background="#fff"
+        ptr:ptr_duration_to_close="200"
+        ptr:ptr_duration_to_close_header="1000"
+        ptr:ptr_keep_header_when_refresh="true"
+        ptr:ptr_pull_to_fresh="false"
+        ptr:ptr_ratio_of_header_height_to_refresh="1.2"
+        ptr:ptr_resistance="1.7">
+
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+</RelativeLayout>

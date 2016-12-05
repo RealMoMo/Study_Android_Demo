@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item
+        android:drawable="@drawable/rocket2"
+        android:duration="0"/>
+    <item
+        android:drawable="@drawable/rocket3"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/rocket4"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/rocket5"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/rocket6"
+        android:duration="100"/>
+
+</animation-list>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/linear_interpolator">
+    
+    <!-- 有些属性要设置再set根节点里，否则在子节点里是无法生效 -->
+    
+    <translate 
+    android:fromYDelta="0"
+    android:toYDelta="-100%p"
+ />
+    
+    <scale
+        android:fromXScale="1"
+        android:fromYScale="1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="0.6"
+        android:toYScale="0.6" />
+
+</set>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="dialogWindowAnim" parent="android:style/Animation" mce_bogus="1">
+        
+        <item name="android:windowEnterAnimation">@anim/enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/exit_anim</item>
+        
+        
+    </style>
+    
+</resources>
+

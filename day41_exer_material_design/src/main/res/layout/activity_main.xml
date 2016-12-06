@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="momo.com.day41_exer_material_design.MainActivity">
+
+    <Button
+        android:onClick="toActivity"
+        android:id="@+id/btn_snackbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SnackBar Activity"/>
+
+    <Button
+        android:onClick="toActivity"
+        android:id="@+id/btn_textinputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextInputLayout Activity"/>
+
+    <Button
+        android:onClick="toActivity"
+        android:id="@+id/btn_floatingactionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FloatingActionButton Activity"/>
+
+    <Button
+        android:onClick="toActivity"
+        android:id="@+id/btn_NavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DrawerLayout_NavigationView Activity"/>
+
+    <Button
+        android:onClick="toActivity"
+        android:id="@+id/btn_CoordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CoordinatorLayout_AppBarLayout_CollapsingToolbarLayout Activity"/>
+</LinearLayout>

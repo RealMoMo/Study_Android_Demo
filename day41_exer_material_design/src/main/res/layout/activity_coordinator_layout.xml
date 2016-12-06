@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="momo.com.day41_exer_material_design.demo.CoordinatorLayoutActivity">
+
+
+    <!--
+    CoordinatorLayout容器内部整体上分为两大块：
+    1.头部折叠布局
+    2.底部的滑动布局，支持两种（NestedScrollView、RecyclerView)
+    -->
+
+
+    <!--头部-->
+   <android.support.design.widget.AppBarLayout
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:id="@+id/appbar">
+
+       <!--
+      折叠操作在CollapsingToolbarLayout进行
+
+      app:contentScrim="@color/colorPrimary"表示Toolbar折叠后的颜色
+
+      layout_scrollFlags描述头部的折叠行为，有5种取值
+      scroll:当底部滑动控件开始滚动时，头布局也参与折叠
+      enterAlways:一旦底部向下滑动，头部会显示出来(用的较少)
+      exitUntilCollapsed:表示头布局折叠刀最小高度（Toolbar的高度）时就不再折叠
+      enterAlwaysCollapsed:表示当底部的滑动控件滑动见顶时，头布局开始折叠
+      snap:在滑动的过程中如果用户停止滑动，则头布局会就近停靠（相当于有弹性的头布局）
+
+
+      设置toolbar文本内容，以及文本的位置。在java代码中不能设置
+      注意:其命名空间
+      app:title="ToolBarTitle"
+      app:expandedTitleGravity="right|bottom"
+      app:collapsedTitleGravity="left"
+
+      -->
+       <android.support.design.widget.CollapsingToolbarLayout
+           app:contentScrim="@color/colorPrimary"
+           app:layout_scrollFlags="scroll|enterAlwaysCollapsed|exitUntilCollapsed|snap"
+           app:collapsedTitleGravity="left"
+           app:expandedTitleGravity="right|bottom"
+           app:title="RealMo_CoordinatorLayout"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <!--
+            app:layout_collapseMode="parallax"表示头布局上下两部分同时开始折叠
+            app:layout_collapseParallaxMultiplier=""设置头布局折叠的视觉乘数：[0,1]一般选择0.7
+            0:头部折叠，底部不折叠
+            1：头部不折叠，底部折叠
+            -->
+           <ImageView
+               android:scaleType="fitXY"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/bg"
+               app:layout_collapseMode="parallax"
+               app:layout_collapseParallaxMultiplier="0.7"/>
+
+           <!--
+           app:layout_collapseMode="pin"表示头布局的折叠操作完成后，最终停靠在当前页面顶部的控件
+           toolbar默认已经有此属性
+           -->
+           <android.support.v7.widget.Toolbar
+               app:layout_collapseMode="pin"
+               android:id="@+id/toolbar"
+               android:layout_width="match_parent"
+               android:layout_height="?attr/actionBarSize">
+
+           </android.support.v7.widget.Toolbar>
+
+
+       </android.support.design.widget.CollapsingToolbarLayout>
+
+   </android.support.design.widget.AppBarLayout>
+
+    <!--底部-->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/large_text"/>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <!--
+    修改FloatingActionButton大小的建议方法：
+    找其源码定义的fabSize属性大小
+    <dimen name="design_fab_size_mini">40dp</dimen>
+    <dimen name="design_fab_size_normal">56dp</dimen>
+
+    拷贝到自定模块的values资源文件，修改其dinmen值即可
+
+    -->
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="mini"
+        app:elevation="20dp"
+        android:src="@android:drawable/ic_input_add"
+        app:layout_anchor="@+id/appbar"
+        app:layout_anchorGravity="bottom|right"/>
+
+</android.support.design.widget.CoordinatorLayout>

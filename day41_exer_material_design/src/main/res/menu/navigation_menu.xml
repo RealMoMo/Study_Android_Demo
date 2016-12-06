@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:icon="@drawable/ehq"
+        android:id="@+id/menu1"
+        android:title="11"
+        />
+
+    <item android:icon="@drawable/eht"
+        android:id="@+id/menu2"
+        android:title="12"
+        />
+    <item android:icon="@drawable/ehw"
+        android:id="@+id/menu3"
+        android:title="13"
+        />
+    <item android:icon="@drawable/ehz"
+        android:id="@+id/menu4"
+        android:title="14"
+        />
+
+
+</menu>

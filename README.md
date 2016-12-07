@@ -27,10 +27,11 @@
 <br>DataBinding使用Demo---Day43_databinding&Day43_databinding_listview</br>   
 <br>Camera使用Demo---Day43_camera</br>   
 <br>所有Demo都是模块,有些Demo使用的框架需要再设置整个项目的build.gradle文件，具体操作在Demo有注释说明。建议查看其框架的Github官网说明配置。</br> 
+-------------
 ###开发环境
 <br>Eclipse Day18之前的Demo</br>
 <br>Android Studio2.0</br>
-
+-------------
 
 
 
@@ -38,7 +39,7 @@
 Everyone who has contributed code and reported issues and pull requests!
 
 
-
+-------------
 ###TODO
 不断完善中....
 

@@ -22,10 +22,12 @@ RealMoMo
 <br>Material Design库控件使用Demo---Day41_exer_material_design</br>
 <br>EventBus简单使用Demo---Day42_eventbus</br>   
 <br>Picasso使用Demo---Day42_picasso</br>   
-<br>Volley使用Demo---Day42_volley</br>   
+<br>Volley使用Demo---Day42_volley</br>  
+<br>ActiveAndroid使用Demo---Day43_activeandroid</br>   
+<br>greenDao使用Demo---Day43_greendao</br>    
  
 
-<br>所有Demo都是Android Studio模块</br> 
+<br>所有Demo都是模块,有些Demo使用的框架需要再设置整个项目的build.gradle文件，具体操作在Demo有注释说明。建议查看其框架的Github官网说明配置。</br> 
 ###开发环境
 <br>Eclipse Day18之前的Demo</br>
 <br>Android Studio2.0</br>

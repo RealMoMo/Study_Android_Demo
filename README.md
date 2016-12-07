@@ -3,8 +3,8 @@
 
 
 ---
-关于作者：
-RealMoMo
+##关于作者：
+RealMo
 > 关于我
    微信：[Real_Mo]()  
    邮箱：czb166@qq.com
@@ -27,8 +27,6 @@ RealMoMo
 <br>greenDao使用Demo---Day43_greendao</br>   
 <br>DataBinding使用Demo---Day43_databinding&Day43_databinding_listview</br>   
 <br>Camera使用Demo---Day43_camera</br>   
- 
-
 <br>所有Demo都是模块,有些Demo使用的框架需要再设置整个项目的build.gradle文件，具体操作在Demo有注释说明。建议查看其框架的Github官网说明配置。</br> 
 ###开发环境
 <br>Eclipse Day18之前的Demo</br>

@@ -1,17 +1,14 @@
-##Study_Android_Demo  --- 安卓学习各小Demo
-
-
-
----
+Study_Android_Demo  --- 安卓学习各小Demo
+=====================
 ##关于作者：RealMo
 
    微信：[Real_Mo]()  
-   邮箱：czb166@qq.com
----
-###Demo
-<br>BaseAdapter的Demo---Day09_BaseAdapter</br>   
-<br>动画Demo---All Day16 Demo</br>   
-<br>图片二次采样Demo---Day25_bigimgload</br>   
+   邮箱：[czb166@qq.com]()
+
+##Demo
+*BaseAdapter的Demo---Day09_BaseAdapter  
+*动画Demo---All Day16 Demo   
+*<br>图片二次采样Demo---Day25_bigimgload</br>   
 <br>图片三级缓存Demo---Day25_imagecache</br>   
 <br>百度地图简单了解使用Demo---Day26_BaiduMap</br>   
 <br>刷新框架Demo---Day29_listview_pulltorefresh&Day29_pulltorefreshtext</br>   

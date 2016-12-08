@@ -45,6 +45,6 @@ Everyone who has contributed code and reported issues and pull requests!
 
 ---
 ###TODO
-不断更新中....
+This project continues to update.
 
 

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<momo.com.day27_customview.widget.MyLineFreeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="#f00"
+        android:text="1" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="#0f0"
+        android:text="1" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_margin="10dp"
+        android:background="#00f"
+        android:text="1" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_margin="20dp"
+        android:background="#f00"
+        android:text="1" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:background="#f00"
+        android:text="1" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:background="#f00"
+        android:text="1" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:background="#0f0"
+        android:text="1" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:background="#00f"
+        android:text="1" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:background="#f00"
+        android:text="1" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:background="#f00"
+        android:text="1" />
+
+
+    <momo.com.day27_customview.widget.CustomTextView
+        custom:myText="自定义属性"
+        android:padding="5dp"
+        custom:myTextColor="#f0f"
+        android:background="#0f0"
+        custom:myTextSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</momo.com.day27_customview.widget.MyLineFreeLayout>

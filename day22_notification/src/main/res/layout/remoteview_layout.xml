@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--视图高度不能写太高，普通视图为64dp-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="horizontal">
+
+
+
+    <ImageView
+        android:src="@mipmap/sing_icon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/iv"/>
+
+    <TextView
+        android:gravity="center"
+        android:text="hahahaha"
+        android:id="@+id/tv_title"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:background="@mipmap/btn_prev"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/btn_prev"/>
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@mipmap/btn_play" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@mipmap/btn_next" />
+
+</LinearLayout>

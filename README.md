@@ -34,6 +34,7 @@ Study_Android_Demo  --- 安卓学习各小Demo
 <br>加速传感器实现摇一摇功能Demo---Day44_sensor</br>  
 <br>zxing生成二维码Demo---Day44_qrwriter</br>
 <br>zxing扫描二维码Demo---Day44_qrreader&zxingLibrary</br>
+<br>视频播放with ListView Demo---Day45_ListView_Video</br>
 
 <br>对于Android Studio开发的Demo都是模块,有些Demo使用的框架需要再设置整个项目的build.gradle文件，具体操作在Demo有注释说明。建议查看其框架的Github官网说明配置。</br> 
 

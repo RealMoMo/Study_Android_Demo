@@ -19,17 +19,22 @@ public class MyObserver {
 
     public static MyObserver getInstance() {
         if (observer == null) {
-            observer = new MyObserver();
+            //防止多个线程并发创建实例
+            synchronized (MyObserver.class) {
+                if (observer == null) {
+                    observer = new MyObserver();
+                }
+            }
         }
         return observer;
     }
 
 
-    public void addWatcher(Watcher watcher){
+    public void addWatcher(Watcher watcher) {
         list.add(watcher);
     }
 
-    public void removeWatcher(Watcher watcher){
+    public void removeWatcher(Watcher watcher) {
         list.remove(watcher);
     }
 

@@ -36,6 +36,8 @@ public class AActivity extends AppCompatActivity {
         setupViews();
 
         initMsg();
+
+        
     }
 
     private void initMsg() {

@@ -38,6 +38,7 @@ Study_Android_Demo  --- 安卓学习各小Demo
 <br>使用即时通讯easemob---Day57_easemob</br>
 <br>观察者模式更新其他界面ImageView的Demo---Day57_observer</br>
 <br>观察者模式模拟下载，更新各界面进度Demo---Day58_observer_download</br>
+<br>XUtils了解使用Demo---Day58_xutils</br>
 
 <br>对于Android Studio开发的Demo都是模块,有些Demo使用的框架需要再设置整个项目的build.gradle文件，具体操作在Demo有注释说明。建议查看其框架的Github官网说明配置。</br> 
 

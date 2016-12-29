@@ -41,6 +41,7 @@ Study_Android_Demo  --- 安卓学习各小Demo
 <br>XUtils了解使用Demo---Day58_xutils</br>
 <br>Html的js与android的交互Demo---Day58_webview_js</br>
 <br>WebView加载本地的Html的Demo---Day58_webview_loadhtml</br>
+<br>自定义控件音频条Demo---Day59_customview</br>
 
 <br>对于Android Studio开发的Demo都是模块,有些Demo使用的框架需要再设置整个项目的build.gradle文件，具体操作在Demo有注释说明。建议查看其框架的Github官网说明配置。</br> 
 

@@ -40,6 +40,7 @@ Study_Android_Demo  --- 安卓学习各小Demo
 <br>观察者模式模拟下载，更新各界面进度Demo---Day58_observer_download</br>
 <br>XUtils了解使用Demo---Day58_xutils</br>
 <br>Html的js与android的交互Demo---Day58_webview_js</br>
+<br>TextView的Html的Demo---Day58_textview_loadhtml</br>
 <br>WebView加载本地的Html的Demo---Day58_webview_loadhtml</br>
 <br>自定义控件音频条Demo---Day59_customview</br>
 

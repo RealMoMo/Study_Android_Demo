@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<momo.com.day64_toucheventdemo.CustomViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ff0"
+    android:layout_height="match_parent">
+
+    <momo.com.day64_toucheventdemo.CustomView
+        android:layout_width="250dp"
+        android:background="#00f"
+        android:layout_centerInParent="true"
+        android:layout_height="250dp" />
+
+</momo.com.day64_toucheventdemo.CustomViewGroup>

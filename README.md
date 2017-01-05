@@ -1,4 +1,4 @@
-Study_Android_Demo  --- 安卓学习各小Demo
+Study_Android_Demo  --- 总结学习安卓的各小Demo
 =====================
 ##关于作者：RealMo
 

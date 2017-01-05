@@ -7,7 +7,8 @@ Study_Android_Demo  --- 总结学习安卓的各小Demo
 
 ##Demo
 <br>AsyncTask的Demo---All Day08 Demo</br>   
-<br>BaseAdapter的Demo---Day09_BaseAdapter</br>  
+<br>BaseAdapter的Demo---Day09_BaseAdapter</br>
+<br>解决ListView的item CheckBox错位Demo---Day11_ListView_checkbox</br>
 <br>菜单、对话框的Demo---All Day11 Demo</br>   
 <br>动画Demo---All Day16 Demo</br> 
 <br>ViewPager Demo---Day18_ViewPager</br>   

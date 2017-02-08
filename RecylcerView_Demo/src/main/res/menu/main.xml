@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/d03"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="add" />
+
+    <item
+        android:id="@+id/action_del"
+        android:icon="@drawable/d02"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="del" />
+
+
+    <item
+        android:id="@+id/action_listview"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="listview" />
+
+    <item
+        android:id="@+id/action_gridview"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="gridview" />
+
+    <item
+        android:id="@+id/action_hor_gridview"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="hor_gridview" />
+
+    <item
+        android:id="@+id/action_staggered"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="staggered" />
+
+
+</menu>

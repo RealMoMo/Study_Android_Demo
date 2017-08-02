@@ -1,11 +1,11 @@
 Study_Android_Demo  --- 总结学习安卓的各小Demo
 =====================
-##关于作者：RealMo
+###   关于作者：RealMo
 
    微信：[Real_Mo]()  
    邮箱：[momo_weiye@126.com]()
 
-##Demo
+###   Demo
 <br>AsyncTask的Demo---All Day08 Demo</br>   
 <br>BaseAdapter的Demo---Day09_BaseAdapter</br>
 <br>解决ListView的item CheckBox错位Demo---Day11_ListView_checkbox</br>
@@ -56,12 +56,12 @@ Study_Android_Demo  --- 总结学习安卓的各小Demo
 
 
 
-###Thanks
+###   Thanks
 Everyone who has contributed code and reported issues and pull requests!
 
 
 ---
-###TODO
+###   TODO
 This project continues to update.
 
 

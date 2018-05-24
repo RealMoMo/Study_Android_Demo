@@ -3,7 +3,7 @@ Study_Android_Demo  --- 总结学习安卓的各小Demo
 ###   关于作者：RealMo
 
    微信：[Real_Mo]()  
-   邮箱：[momo_weiye@126.com]()
+   邮箱：[momo.weiye@gmail.com]()
 
 ###   Demo
 <br>AsyncTask的Demo---All Day08 Demo</br>   

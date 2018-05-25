@@ -50,6 +50,7 @@ Study_Android_Demo  --- 总结学习安卓的各小Demo
 <br>RecylcerView简单使用 Demo---RecylcerView_Demo</br>
 <br>BufferKnife使用 Demo---BufferKnife_Demo</br>
 <br>TextClock使用 Demo---demo_textclock</br>
+<br>Chronometer使用 Demo---demo_chronometer</br>
 
 <br>对于Android Studio开发的Demo都是模块,有些Demo使用的框架需要再设置整个项目的build.gradle文件，具体操作在Demo有注释说明。建议查看其框架的Github官网说明配置。</br> 
 

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <!--
+    cardview最重要的两个属性
+    cardCornerRadius 设置圆角半径
+    cardElevation    设置Z轴阴影的半径
+        -->
+    <!--
+    cardBackgroundColor 设置背景色
+    cardMaxElevation    设置Z轴最大高度值(测试并没有限制cardElevation效果，即没有发现什么卵用)
+    contentPadding      设置内容的padding
+    cardUseCompatPadding        设置内边距，V21+的版本和之前的版本仍旧具有一样的计算方式
+    cardPreventConrerOverlap    设置内边距，在V20和之前的版本中添加内边距，这个属性为了防止内容和边角的重叠
+    -->
+
+    <!--
+        添加点击水波纹效果
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+    -->
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="5dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:src="@drawable/test"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add contentPadding"/>
+
+    <android.support.v7.widget.CardView
+        app:contentPadding="5dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="5dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:src="@drawable/test"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add cardUseCompatPadding true"/>
+
+    <android.support.v7.widget.CardView
+        app:contentPadding="5dp"
+        app:cardUseCompatPadding="true"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="5dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:src="@drawable/test"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add cardUseCompatPadding true"/>
+
+    <android.support.v7.widget.CardView
+        app:contentPadding="5dp"
+        app:cardUseCompatPadding="false"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="5dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:src="@drawable/test"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

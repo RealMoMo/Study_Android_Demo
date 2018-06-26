@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         //设置小图标
         builder.setSmallIcon(R.mipmap.sing_icon)
                 .setTicker("震惊！一对情侣竟然...")
-                .setContentText("在千锋学习，并找到满意的工作")
+                .setContentText("上课不学习，并找到满意的工作")
                 .setContentTitle("月薪过万");
 
         //跳转到指定的Activity

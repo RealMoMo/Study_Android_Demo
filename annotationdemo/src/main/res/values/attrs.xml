@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="attrRes">
+        <attr name="test1" format="reference" />
+        <attr name="test2" format="reference" />
+        <attr name="test3" format="integer" />
+    </declare-styleable>
+
+</resources>

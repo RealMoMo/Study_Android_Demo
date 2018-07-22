@@ -3,6 +3,7 @@ package com.qf.service;
 
 // Declare any non-default types here with import statements
 
+//与服务端的Service的aidl包名类名一致
 interface ISingInterface {
     /**
      * Demonstrates some basic types that you can use as parameters

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnnotationProcessor/AnnotationProcessor.iml" filepath="$PROJECT_DIR$/AnnotationProcessor/AnnotationProcessor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomAnnotationDemo.iml" filepath="$PROJECT_DIR$/CustomAnnotationDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customannoation/customannoation.iml" filepath="$PROJECT_DIR$/customannoation/customannoation.iml" />
+    </modules>
+  </component>
+</project>

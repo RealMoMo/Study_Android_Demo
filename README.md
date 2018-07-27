@@ -1,8 +1,7 @@
-Study_Android_Demo  --- 总结学习安卓的各小Demo
+Study_Android_Demo  --- 总结学习安卓的小Demo
 =====================
 ###   关于作者：RealMo
 
-   微信：[Real_Mo]()  
    邮箱：[momo.weiye@gmail.com]()
 
 ###   Demo

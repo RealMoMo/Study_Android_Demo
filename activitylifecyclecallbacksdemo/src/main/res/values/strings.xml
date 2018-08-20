@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ActivityLifecycleCallbacksDemo</string>
+    <string name="title_activity_activty">ActivtyA</string>
+    <string name="title_activity_b">ActivityB</string>
+</resources>

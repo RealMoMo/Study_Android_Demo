@@ -1,0 +1,41 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="setting"
+        android:enabled="true"
+        android:icon="@mipmap/momo"
+        android:shortcutShortLabel="@string/set_short_name"
+        android:shortcutLongLabel="@string/set_long_name"
+        android:shortcutDisabledMessage="@string/set_disable_msg">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.realmo.shortcutdemo"
+            android:targetClass="com.realmo.shortcutdemo.ShortCutActvivity" />
+        <categories android:name="android.shortcut.conversation"/>
+
+    </shortcut>
+
+
+    <!--  解释
+    shortcutId, 快捷方式的id
+
+enabled：表示这个shortcut是否可用，一般设置为true即可
+
+shortcutShortLabel：配置快捷方式的短名称, 如果长名称显示不下, 就显示短名称
+
+shortcutLongLabel： 配置快捷方式的长名称, launcher会优先选择长名称显示（优先级高于shortcutShortLabel）
+
+shortcutDisabledMessage：这个标签的意思是指：当我们点击一个不可用的shortcut时，给用户一个有效提示
+
+内部还有个intent标签：
+
+ android:action，这里的action需要配置，否则会崩溃，默认写法是android.intent.action.VIEW
+
+ targetPackage：目标应用的包名,
+
+ targetClass：点击快捷方式要跳转的目标类, 这里要注意的是android:action一定要配置, 否则会崩溃
+
+ categories：这个标签谷歌团队仅提供了android.shortcut.conversation 这一种，所以直接复制即可
+
+    -->
+</shortcuts>

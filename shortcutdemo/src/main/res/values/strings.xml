@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShortCutDemo</string>
+
+    <string name="set_short_name">快捷方式短名称</string>
+    <string name="set_long_name">快捷方式长名称</string>
+    <string name="set_disable_msg">快捷方式暂时不可用</string>
+
+</resources>

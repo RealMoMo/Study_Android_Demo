@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewAnimationActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/do_btn_bg"
+        android:gravity="center"
+        android:lines="1"
+        android:text="Common ViewAnimation"
+        android:textAllCaps="false"
+        android:textSize="12sp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/do_btn_bg"
+        android:gravity="center"
+        android:lines="1"
+        android:text="PopupWindow ViewAnimation"
+        android:textAllCaps="false"
+        android:textSize="12sp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/do_btn_bg"
+        android:gravity="center"
+        android:lines="1"
+        android:text="RecycleView ViewAnimation"
+        android:textAllCaps="false"
+        android:textSize="12sp"/>
+</LinearLayout>

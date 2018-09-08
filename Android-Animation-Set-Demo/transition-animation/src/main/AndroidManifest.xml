@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.ocnyang.transitionanimation">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application>
+        <activity
+            android:name=".TransitionAnimationActivity"
+            android:label="@string/module_transition"/>
+        <activity
+            android:name=".ShareElementsActivity"
+            android:label="Share Elements"/>
+        <activity
+            android:name=".TransitionAnimationBySlideActivity"
+            android:label="Transition by Slide"/>
+        <activity
+            android:name=".TransitionAnimationByExplodeActivity"
+            android:label="Transition by Explode"/>
+    </application>
+
+</manifest>

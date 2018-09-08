@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.ocnyang.viewanimation">
+
+    <application>
+        <activity
+            android:name=".CommonViewAnimationActivity"
+            android:label="Common ViewAnimation">
+        </activity>
+        <activity android:name=".PopupWindowViewAnimationActivity"
+            android:label="ViewAnimation in PopupWindow">
+        </activity>
+        <activity android:name=".ViewAnimationActivity"
+            android:label="@string/module_name">
+        </activity>
+        <activity android:name=".ListViewAnimationActivity"
+            android:label="Layout Animation">
+        </activity>
+    </application>
+
+</manifest>

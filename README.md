@@ -60,7 +60,8 @@ Study_Android_Demo  --- 总结学习安卓的小Demo
 <br>监听所有Activity生命周期变化 中 ActivityLifecycleCallbacks Demo --- ActivityLifecycleCallbacksDemo </br>
 <br>共享元素动画Demo  --- ShareElementDemo </br>
 <br>生成快捷方式Demo  --- ShortCutDemo </br>
-<br>指针验证Demo  --- FingerPrintDemo </br>
+<br>指纹识别验证Demo  --- FingerPrintDemo </br>
+<br>Android动画合集总结Demo  --- Android-Animation-Set-Demo </br>
 
 <br>对于Android Studio开发的Demo有的是模块,有的是Project。而有些Demo使用的框架需要再设置整个项目的build.gradle文件，具体操作在Demo有注释说明。建议查看其框架的Github官网说明配置。</br> 
 

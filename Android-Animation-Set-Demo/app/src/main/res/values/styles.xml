@@ -1,0 +1,21 @@
+<resources>
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+    <style name="AppTheme" parent="Theme.Design.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyRippleAnimationTheme" parent="AppTheme">
+        <item name="android:colorControlHighlight">#ffDE5246</item>
+    </style>
+
+    <style name="MyTransparentTheme" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@null</item>//设置跳转动画为null，即没有动画
+        <item name="android:windowBackground">@android:color/transparent</item>//设置窗口背景为透明
+        <!--<item name="android:colorBackgroundCacheHint">@null</item>-->
+        <item name="android:windowIsTranslucent">true</item>//设置窗口为透明
+    </style>
+
+</resources>

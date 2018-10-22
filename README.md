@@ -64,6 +64,7 @@ Study_Android_Demo  --- 总结学习安卓的小Demo
 <br>Android动画合集总结Demo  --- Android-Animation-Set-Demo </br>
 <br>Vector Drawable Demo  --- VectorDemo </br>
 <br>Thread Demo  --- ThreadDemo </br>
+<br>插件化 Demo  --- PluginDemo </br>
 
 <br>对于Android Studio开发的Demo有的是模块,有的是Project。而有些Demo使用的框架需要再设置整个项目的build.gradle文件，具体操作在Demo有注释说明。建议查看其框架的Github官网说明配置。</br> 
 
